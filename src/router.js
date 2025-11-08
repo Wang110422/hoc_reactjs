@@ -16,7 +16,8 @@ const renderUserRouter = () => {
     }
     ]
     return (
-        <MasterLayout>
+        <MasterLayout>{
+            /* //Khi khởi chạy thì các Route sẽ được gắn vào children */}
             <Routes>
                 {
                     userRouters.map(
